@@ -1,0 +1,254 @@
+/*
+@package NinjaCode IFSC Code Script
+@version v2.0
+@author Mohammad Sharfuddin
+@organization NinjaCode
+@web www.NinjaCode.tech
+@updated 19 August, 2020
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited {
+  color: #263238;
+}
+
+a:hover {
+  color: #D84315;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.medium {
+    font-size: 30px;
+}
+
+.large {
+    font-size: 40px;
+}
+
+.little-medium {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.menu-bg-NinjaCode {
+    background: #880E4F;
+}
+
+.main-content-NinjaCode {
+    background: #fafafa;
+}
+
+.white-bg-NinjaCode {
+    background: #fff;
+}
+
+.radius-NinjaCode {
+    border-radius: 10px;
+}
+
+.border-radius-NinjaCode {
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.white-bg-border-radius-NinjaCode {
+    background: #fff;
+    padding: 6px 6px 6px 10px;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.custom-select-NinjaCode {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    background-image: url('../images/sort-down.png');
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 96.5% center;
+    -moz-padding-end: 33px;
+    -webkit-padding-end: 33px;
+    -moz-padding-start: 10px;
+    -webkit-padding-start: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.custom-select-NinjaCode:disabled {
+    color: grey;
+    background: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    -moz-padding-end: 33px;
+    -webkit-padding-end: 33px;
+    -moz-padding-start: 10px;
+    -webkit-padding-start: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.custom-input-NinjaCode {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    -moz-padding-end: 23px;
+    -webkit-padding-end: 23px;
+    -moz-padding-start: 10px;
+    -webkit-padding-start: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.shadow-NinjaCode {
+    -webkit-box-shadow: -7.142px 7.142px 30px 0 rgba(157, 157, 157, 0.2);
+    -moz-box-shadow: -7.142px 7.142px 30px 0 rgba(157, 157, 157, 0.2);
+    box-shadow: -7.142px 7.142px 30px 0 rgba(157, 157, 157, 0.2);
+
+}
+
+.footer-NinjaCode {
+     padding-top: 50px;
+     padding-bottom: 50px;
+    color: #c1c1c1;
+}
+
+.footer-NinjaCode a {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-NinjaCode a:hover {
+    color: yellow;
+}
+
+.social-NinjaCode {
+    font-size: 30px;
+}
+
+form .reset-NinjaCode {
+     color: #fff;
+}
+
+form .reset-NinjaCode:hover {
+     color: #fafafa;
+}
+
+.word-break-NinjaCode {
+    word-break: break-word;
+}
+
+@media (max-width: 768px) {
+    
+    .spacing-NinjaCode {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    
+    .top-part-NinjaCode, .top-banks-NinjaCode {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .main-content-NinjaCode {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+      .spacing-small-NinjaCode {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (min-width: 576px) {
+    
+    .top-part-NinjaCode, .top-banks-NinjaCode {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .main-content-NinjaCode {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    
+    .top-part-NinjaCode, .top-banks-NinjaCode {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .main-content-NinjaCode {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    
+    .top-part-NinjaCode, .top-banks-NinjaCode {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .main-content-NinjaCode {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+    
+    .top-part-NinjaCode, .top-banks-NinjaCode {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    
+    .main-content-NinjaCode {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+}
